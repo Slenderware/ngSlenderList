@@ -1,0 +1,16 @@
+{
+    "name": "ngSlenderList",
+    "version": "0.0.0",
+    "dependencies": {
+        "angular": "~1.0.7"
+    },
+    "devDependencies": {
+        "angular-mocks": "~1.0.7",
+        "angular-scenario": "~1.0.7"
+    },
+    "main": [   
+    "dist/ngSlenderList.min.css",
+    "dist/ngSlenderList.min.js"    
+  ]
+}
+
