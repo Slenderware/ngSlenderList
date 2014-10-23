@@ -11,7 +11,7 @@ Development
 
 Installation
 ------------
-* bower install ng-slenderlist --save
+* bower install ng-slender-list --save
 
 The MIT License (MIT)
 ----------------------
