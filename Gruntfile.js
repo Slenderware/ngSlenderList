@@ -23,13 +23,13 @@ module.exports = function (grunt) {
             },
             library: {
                 src: [                   
-                    //'src/<%= library.name %>/<%= library.name %>.prefix',
+                    'src/<%= library.name %>/<%= library.name %>.prefix',
                     'dist/<%= library.name %>.templatecache.js',
                     'src/<%= library.name %>/<%= library.name %>.js',
                     'src/<%= library.name %>/directives/**/*.js',
                     'src/<%= library.name %>/filters/**/*.js',
-                    'src/<%= library.name %>/services/**/*.js'//,
-                   // 'src/<%= library.name %>/<%= library.name %>.suffix'                   
+                    'src/<%= library.name %>/services/**/*.js',
+                    'src/<%= library.name %>/<%= library.name %>.suffix'                   
                 ],
                 dest: 'dist/<%= library.name %>.js'
             }
