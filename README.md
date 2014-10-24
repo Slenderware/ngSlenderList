@@ -14,7 +14,7 @@ Installation
 * bower install jqtree --save
 * bower install ng-slender-list --save
 * inject ngSLenderList dependency into main angular module
-* add <div task-list></div> to html
+* add ```<div task-list></div>``` to html
 
 The MIT License (MIT)
 ----------------------
